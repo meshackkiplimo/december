@@ -17,7 +17,7 @@ function drawStar(ctx,x,y,size,hue){
 
       
     }
-    ctx.fillStyle = `hsl(${hue},100%,50%)`
+    ctx.fillStyle = color.normal(hue)
     ctx.fill()
 
     }
